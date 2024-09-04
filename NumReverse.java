@@ -4,6 +4,16 @@
 
 public class NumReverse {
     public static void main(String args[]){
+
+        int num = 9870;
+        System.out.print(num%10);
+        num /= 10;
+        System.out.print(num%10);
+        num /= 10;
+        System.out.print(num%10);
+        num /= 10;
+        System.out.print(num%10);
+        num /= 10;
         /*
          * Implement your number reversal algorithm below
          * Your code should work for any 4 digit integer.  
